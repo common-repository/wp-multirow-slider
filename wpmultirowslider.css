@@ -1,0 +1,58 @@
+/* admin page style */
+
+.wpms_instruction_breakpoints {
+  display: inline-block;
+  width: 24%;
+  margin: 0;
+}
+.wpms_instruction_content p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* slider style */
+.wpmultirowslider {
+	width: 100%;
+}	
+
+.wpmultirowslider .slick-track {
+  display: flex !important;
+}
+.wpmultirowslider .slick-slide {
+  /* height: inherit !important; */
+}
+.wpmultirowslider .slick-slide > div {
+  height: 100%;
+  display: flex;
+}
+
+.wpmultirowslider .img_container {
+  padding: 20px 28px;
+  height: initial;
+  display: flex!important;
+  justify-content: center;
+}
+.wpmultirowslider .img_container img {
+  display: inline-block;
+  align-self: center;
+}
+
+.wpmultirowslider .slick-dots {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+.wpmultirowslider .slick-dots button {
+  font-size: 0;
+  border: 1px solid #000;
+  background: none;
+  width: 20px;
+  height: 8px;
+  border-radius: 25px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.wpmultirowslider .slick-dots .slick-active button {
+  background-color: #000;
+}
